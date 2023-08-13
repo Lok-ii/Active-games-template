@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: #426696;
+    font-weight: 600;
+    font-size: 48px;
+    opacity: 0.8;
+  }
+  h2,
+  p {
+    color: #658ec6;
+    font-weight: 500;
+    opacity: 0.8;
+  }
+  
+  h3 {
+    color: #426696;
+    font-weight: 600;
+    opacity: 0.8;
+  }
+main{
+    display: flex;
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+    align-items: center;
+    justify-content: center;
+}
+.sidebar{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 25%;
+    height: 99vh;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 30px;
+    /* background: linear-gradient(to top, #86c2ae, #ffffff); */
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+}
+
+.avatar{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.avatar img{
+    width: 100px;
+    height: 100px;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    width: 50%;    
+}
+
+.option{
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.option h2{
+    padding-left: 55px;
+}
+
+.free-games {
+  position: relative;
+  background: linear-gradient(to right top, #65dfc9, #6cdbeb);
+  border-radius: 32px;
+  color: white;
+  padding: 16px;
+}
+
+.free-games img {
+  position: absolute;
+  top: -10%;
+  right: 10%;
+}
+.free-games h2 {
+  width: 40%;
+  color: white;
+  font-weight: 600;
+}
+
+/* active games */
+
+.active-games{
+    width: 70%;
+    height: 100vh;
+}
+
+.right-side{
+    margin: 75px;
+}
+
+.bar{
+    width: 350px;
+    height: 30px;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    border-radius: 30px;
+}
+
+.game{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(to right bottom, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.3));
+    height: 140px;
+    border-radius: 30px;
+    margin: 30px 0;
+}
+
+.long-bar{
+    width: 300px;
+    height: 25px;
+    border-radius: 30px;
+    background: linear-gradient(to right top, #18e1bc, #15cfec);
+}
+
